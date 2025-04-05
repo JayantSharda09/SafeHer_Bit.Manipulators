@@ -56,7 +56,7 @@ bash
 Copy
 Edit
 npx expo start
-⚠ Make sure to connect a physical Android device or use Expo Go to test the app.
+   ⚠ Make sure to connect a physical Android device or use Expo Go to test the app.
 
 📂 Project Structure
 bash
@@ -72,8 +72,6 @@ project/
 ├── firebase/              # Firebase config and utils
 ├── assets/                # Images, icons
 └── .env                   # Environment variables
-🎥 Video Demo
-Watch the full demo here: [📽 YouTube Link or Google Drive Link]
 
 🎨 Additional Assets
 📂 UI Designs (Figma/Images)
