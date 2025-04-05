@@ -36,50 +36,61 @@
    ```bash
    git clone https://github.com/yourusername/safeher.git
    cd safeher
-Install dependencies:
+2. Install dependencies:  
+- bash
+- Copy
+- Edit
+- npm install
 
-bash
-Copy
-Edit
-npm install
-Add a .env file in the root directory with your Firebase config:
+3.Add a .env file in the root directory with your Firebase config:
+- makefile 
+- Copy  
+- Edit   
+- EXPO_PUBLIC_FIREBASE_API_KEY=your_key   
+- EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN=your_domain
+   
+---
 
-makefile
-Copy
-Edit
-EXPO_PUBLIC_FIREBASE_API_KEY=your_key
-EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN=your_domain
-...
 Run the app:
 
-bash
-Copy
-Edit
-npx expo start
+- bash
+- Copy
+- Edit
+- npx expo start
+  
    ⚠ Make sure to connect a physical Android device or use Expo Go to test the app.
 
 📂 Project Structure
-bash
-Copy
-Edit
+- bash
+- Copy
+- Edit
+
 project/
+
 ├── app/                   # Screens and navigation
+
 │   ├── index.js
+
 │   ├── (tabs)/            # Tab screens like Home, Profile
+
 │   └── safety/            # Safety screen components
+
 ├── components/            # Reusable UI components
+
 ├── constants/             # App-wide constants (colors, sizes)
+
 ├── firebase/              # Firebase config and utils
+
 ├── assets/                # Images, icons
+
 └── .env                   # Environment variables
 
-🎨 Additional Assets
-📂 UI Designs (Figma/Images)
+# 🎨 Additional Assets
+- 📂 UI Designs (Figma/Images)
+- 📊 Pitch Deck (PDF)
 
-📊 Pitch Deck (PDF)
-
-🙌 Team SafeHer
-Jayant Sharda 
-Vishesh Jaiswal
-Vinay Mundada
-Utkarsh Pal
+# 🙌 Team Bit Mnipulators
+- Jayant Sharda 
+- Vishesh Jaiswal
+- Vinay Mundada
+- Utkarsh Pal
